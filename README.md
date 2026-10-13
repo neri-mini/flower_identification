@@ -40,7 +40,8 @@ flower_identification/
 └── README.md
 ```
 
-## 食用教程
+## 食用教程（
+
 1. 去地址(https://pan.baidu.com/s/1GKc89PeWNq1TxeNuIIk-4A?pwd=6a48)
 
    下载文件或自己找图片分类之后放好
