@@ -1,0 +1,26 @@
+# 数据集（228MB，需按 README 自行下载）
+flower_data/
+
+# 训练好的模型（222MB，跑 train.py 会重新生成）
+outputs/model.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+miniconda3/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+Thumbs.db
+Desktop.ini
+.DS_Store

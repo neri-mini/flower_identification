@@ -1,0 +1,21 @@
+{
+  "classes": [
+    "daisy",
+    "dandelion",
+    "rose",
+    "sunflower",
+    "tulip"
+  ],
+  "num_classes": 5,
+  "img_size": 224,
+  "mean": [
+    0.463429,
+    0.423607,
+    0.303422
+  ],
+  "std": [
+    0.299918,
+    0.269593,
+    0.29446
+  ]
+}

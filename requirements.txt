@@ -1,0 +1,16 @@
+# Python 版本要求：3.10 ~ 3.13（本项目在 3.11.17 上开发）
+#
+# 安装方式见 README.md。GPU 版 PyTorch 必须用 PyTorch 官方源装，
+# 不能用默认的 PyPI（默认源在 Windows 上只提供 CPU 版）：
+#
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#
+# 装完后本文件其余依赖：
+#
+#   pip install -r requirements.txt
+
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.4.6
+pillow==12.3.0
+matplotlib==3.11.2
