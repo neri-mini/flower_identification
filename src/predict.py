@@ -12,6 +12,8 @@ from data_prepare import (MODEL_PATH, PARAM_JSON, INPUT_DIR, PREDICT_CSV,
 from train import load_params                          
 from model import FlowerNet
 
+IMAGE_EXTS = (".jpg", ".jpeg", ".png", ".bmp", ".webp", ".avif")
+
 # 加载模型
 def load_model(device):
     if not os.path.exists(MODEL_PATH):
@@ -28,8 +30,8 @@ def load_model(device):
 def list_images(input_dir):
     names = []
     for I in os.listdir(input_dir):
-        path = os.path.join(input_dir, I)
-        names.append(path)
+        if I.lower().endswith(IMAGE_EXTS):
+            names.append(I)
     return sorted(names)
 
 
